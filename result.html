@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Charges Prediction - Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Insurance Charges Prediction - Result</h1>
+    <p>Recommended charges (in INR):</p>
+    <p>{{ predicted_charge }}</p>
+    <a href="/">Back to input form</a>
+</body>
+</html>
